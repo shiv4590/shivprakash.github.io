@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0b546e6c3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="img1" src="./sl.png">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header1">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Shivprakash</span> <br>from Varanasi</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------------about------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <img class="img2" src="./pl.png">
+                </div>
+                <div class="col2">
+                    <h1 class="title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eaque consequuntur, iusto fugiat ipsum architecto voluptas minus porro doloribus, deleniti doloremque sequi cum. Similique ullam totam est id numquam accusantium pariatur aut  fuga est corrupti repellendus eveniet voluptate, laboriosam distinctio provident quo? Animi itaque ratione eos id quisquam nemo maxime quae aperiam quasi accusamus consectetur praesentium, nostrum in aut!</p>
+                    <div class="title1">
+                        <p class="title3 sub" onclick="opentab('Skills')">Skills</p>
+                        <p class="title3"   onclick="opentab('Education')">Education</p>
+                      
+                    </div>
+                    <div class="title4 active" id="Skills">
+                        <ul>
+                            <li>Web developer<br><span>Fronted Web develper</span></li>
+                            <li>Vidio Editior<br><span>Create vidio Effect</span></li>
+                        </ul>
+                    </div>
+                    <div class="title4" id="Education">
+                        <ul>
+                            <li>Schooling<br><span>Pragati Public</span></li>
+                            <li>B-Tech<br><span>KNIT Sultanpur</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------services------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="title">Services</h1>
+            <div class="servicelist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nisi error placeat vitae facere ipsa beatae, ut, illum adipisci eveniet quas. Ipsa dolore maxime dignissimos optio saepe accusamus, in corrupti illo temporibus voluptatem quia molestiae odit aperiam ad laboriosam aspernatur.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>Vidio Editor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, nisi error placeat vitae facere ipsa beatae, ut, illum adipisci eveniet quas. Ipsa dolore maxime dignissimos optio saepe accusamus, in corrupti illo temporibus voluptatem quia molestiae odit aperiam ad laboriosam aspernatur.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------portfoilio-------------------------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./ui.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, minus eaque! Tenetur impedit a perspiciatis.</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./poy.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, minus eaque! Tenetur impedit a perspiciatis.</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./su.png" alt="">
+                    <div class="layer">
+                        <h3>Online App</h3>
+                        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, minus eaque! Tenetur impedit a perspiciatis.</P>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtittle">Contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i>Shivprakashkumar00210@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9555270747</p>
+                <div class="socialicon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./My resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Enter your Name">
+                    <input type="email" name="email" placeholder="enter you email">
+                    <textarea name="text" id=""  rows="6" placeholder="Enter your Address"></textarea>
+                    <input type="number" name="number" placeholder="contact no">
+                    <button type="Submit" class="btn btn2">Submit Now</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        </div>
+        <div class="copyright">
+            <p>copyrigth &copy; made by me</p>
+        </div>
+    </div>
+    <script>
+        var title3=document.getElementsByClassName("title3"); 
+        var title4=document.getElementsByClassName("title4");
+        function opentab(tabname){
+            for(title of title3){
+                title.classList.remove("sub")
+            }
+            for(title of title4){
+                title.classList.remove("active")
+            }
+            event.currentTarget.classList.add('sub');
+           document.getElementById(tabname).classList.add("active");
+        }
+        
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-250px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzr9Fghxt5pTq7tkpiBiG6jYoqAumcB9R4uM7U5UlgBDHv6Y2RUHyj4DWdBXnPQBhAHNA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
